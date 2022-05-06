@@ -13,6 +13,15 @@
         "runtime": {
           "lib/net40/React.Web.dll": {}
         }
+      },
+      "System.Web.Optimization.React/5.2.12": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Web.Optimization.React.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.React.dll": {}
+        }
       }
     }
   },
@@ -52,11 +61,28 @@
         "react.web.5.2.12.nupkg.sha512",
         "react.web.nuspec"
       ]
+    },
+    "System.Web.Optimization.React/5.2.12": {
+      "sha512": "IYMMbC7vKNCMhXfn86GmFq56vJbNQKInjnKimlNh/5r6Tkr5ilFNtY1D/V3vwSKgFLfAW8JwllZqD/yqQMVaDA==",
+      "type": "package",
+      "path": "system.web.optimization.react/5.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/readme.txt",
+        "lib/net40/System.Web.Optimization.React.dll",
+        "lib/net40/System.Web.Optimization.React.pdb",
+        "lib/net40/System.Web.Optimization.React.xml",
+        "logo_64.png",
+        "system.web.optimization.react.5.2.12.nupkg.sha512",
+        "system.web.optimization.react.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "React.Web >= 5.2.12",
+      "System.Web.Optimization.React >= 5.2.12",
       "leaflet >= 0.7.3"
     ]
   },
@@ -103,6 +129,10 @@
             "target": "Package",
             "version": "[5.2.12, )"
           },
+          "System.Web.Optimization.React": {
+            "target": "Package",
+            "version": "[5.2.12, )"
+          },
           "leaflet": {
             "target": "Package",
             "version": "[0.7.3, )"
@@ -137,6 +167,16 @@
       "warningLevel": 1,
       "message": "Package 'React.Web 5.2.12' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "React.Web",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Web.Optimization.React 5.2.12' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Web.Optimization.React",
       "targetGraphs": [
         "net6.0"
       ]

@@ -7,8 +7,21 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "MapApp/1.0.0": {
+        "dependencies": {
+          "React.Web": "5.2.12",
+          "leaflet": "0.7.3"
+        },
         "runtime": {
           "MapApp.dll": {}
+        }
+      },
+      "leaflet/0.7.3": {},
+      "React.Web/5.2.12": {
+        "runtime": {
+          "lib/net40/React.Web.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.12.29"
+          }
         }
       }
     }
@@ -18,6 +31,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "leaflet/0.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R20Vv1lXuqcu6lKeHFy8KnahLxetHaKBS0S2y/mrq+phhkTtz0zIr6isxJR89LuQR9v53aKNMFVyaxLU+zagEw==",
+      "path": "leaflet/0.7.3",
+      "hashPath": "leaflet.0.7.3.nupkg.sha512"
+    },
+    "React.Web/5.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+q98Il5CJSOiPC2O+yy0czrD73bc78A459GYKcOAiFdln9zxpaRBIz9zdefmj7+P5XIhd8qG+Cb0oUw8158PKA==",
+      "path": "react.web/5.2.12",
+      "hashPath": "react.web.5.2.12.nupkg.sha512"
     }
   }
 }

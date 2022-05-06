@@ -24,3 +24,5 @@ C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApp\obj\Debug\net6.0\MapApp.dll
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApp\obj\Debug\net6.0\ref\MapApp.dll
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApp\obj\Debug\net6.0\MapApp.pdb
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApp\obj\Debug\net6.0\MapApp.genruntimeconfig.cache
+C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApp\bin\Debug\net6.0\React.Web.dll
+C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApp\obj\Debug\net6.0\MapApp.csproj.CopyComplete

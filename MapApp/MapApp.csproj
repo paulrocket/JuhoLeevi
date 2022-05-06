@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="leaflet" Version="0.7.3" />
+    <PackageReference Include="React.Web" Version="5.2.12" />
+  </ItemGroup>
+
 </Project>
