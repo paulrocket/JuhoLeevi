@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "3+Q+ZMAseQSPwQ+8hqeppbEYGDskNxZknMsEtToG9RWHUsGacduvL7YzFo7svz5rZ/4pXn9KjfMPaYClbAG4xw==",
+  "dgSpecHash": "QxPSty4sdNjWxYkDTTcg+zu1nAuM/vS7wt6qAHMTB1q0PRtnXnZQnXQKUW4DEhJNtnyM2DRskZXcQErrv4oCCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApp\\MapApp.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\leevi\\.nuget\\packages\\leaflet\\0.7.3\\leaflet.0.7.3.nupkg.sha512",
+    "C:\\Users\\leevi\\.nuget\\packages\\react.web\\5.2.12\\react.web.5.2.12.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'React.Web 5.2.12' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "React.Web",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
