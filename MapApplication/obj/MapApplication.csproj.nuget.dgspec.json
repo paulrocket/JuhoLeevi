@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/juho/Opiframe/JuhoLeevi/MapApplication/MapApplication.csproj": {}
+    "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj": {}
   },
   "projects": {
-    "/home/juho/Opiframe/JuhoLeevi/MapApplication/MapApplication.csproj": {
+    "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/juho/Opiframe/JuhoLeevi/MapApplication/MapApplication.csproj",
+        "projectUniqueName": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj",
         "projectName": "MapApplication",
-        "projectPath": "/home/juho/Opiframe/JuhoLeevi/MapApplication/MapApplication.csproj",
-        "packagesPath": "/home/juho/.nuget/packages/",
-        "outputPath": "/home/juho/Opiframe/JuhoLeevi/MapApplication/obj/",
+        "projectPath": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj",
+        "packagesPath": "C:\\Users\\leevi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/juho/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\leevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "JavaScriptEngineSwitcher.Core": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "JavaScriptEngineSwitcher.V8": {
+              "target": "Package",
+              "version": "[3.18.1, )"
+            },
+            "React.Core": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            },
             "React.Web.Mvc4": {
               "target": "Package",
               "version": "[5.2.12, )"
@@ -57,6 +71,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -65,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/164/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

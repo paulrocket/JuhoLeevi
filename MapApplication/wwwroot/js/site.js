@@ -1,14 +1,10 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
 
-// Write your JavaScript code.
-
-var map = new L.Map('leaflet', {
-    center: [0, 0],
-    zoom: 0,
-    layers: [
-        new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            'attribution': 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-        })
-    ]
-});
+var map = L.map('map').setView([0, 0], 1);
+        L.TileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=EVuUOQm9Knxh84jI671s', {
+        tileSize: 512,
+        zoomOffset: -1,
+        minZoom: 1,
+        attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+        crossOrigin: true
+    }).addTo(map);
