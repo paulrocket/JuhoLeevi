@@ -37,3 +37,4 @@ C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\obj\Debug\net5.0\ref\M
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\obj\Debug\net5.0\MapApplication.pdb
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\obj\Debug\net5.0\MapApplication.genruntimeconfig.cache
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\obj\Debug\net5.0\MapApplication.csproj.CopyComplete
+C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\React.Web.Mvc4.dll
