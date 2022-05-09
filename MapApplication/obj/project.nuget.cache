@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DY3eVCmCl3XmtTNIxGjc7cfLrykZrzH1BI/vuxaP8FmsKsevberCsJEdmWt/ODCvyFSYGGDi11pG0Uc5MOYqdw==",
+  "dgSpecHash": "glwsH6lj9kRZtHBQea0pg0nHRbiU7ij8SMnf6YWy/C0Pl2WiikNHvFpaHFoSsDNv8e+EU7dDoG6DhiD1uHPClQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj",
+  "projectFilePath": "/home/juho/Opiframe/JuhoLeevi/MapApplication/MapApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\leevi\\.nuget\\packages\\leaflet\\0.7.3\\leaflet.0.7.3.nupkg.sha512",
-    "C:\\Users\\leevi\\.nuget\\packages\\react.web.mvc4\\5.2.12\\react.web.mvc4.5.2.12.nupkg.sha512",
-    "C:\\Users\\leevi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "/home/juho/.nuget/packages/leaflet/0.7.3/leaflet.0.7.3.nupkg.sha512",
+    "/home/juho/.nuget/packages/react.web.mvc4/5.2.12/react.web.mvc4.5.2.12.nupkg.sha512"
   ],
   "logs": [
     {
