@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61a34e10-656b-43f9-8cc0-4c5b49ce9006": {
+      "ProjectGuid": "61a34e10-656b-43f9-8cc0-4c5b49ce9006",
+      "DisplayName": "MapApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

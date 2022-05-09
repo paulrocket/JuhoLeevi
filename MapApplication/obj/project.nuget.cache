@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SGwj+B0WRbg8DXBGUc3F/nqd8W7BMtyO+nwBKvPMG1bu95e1KoZBM/5/Sp1B+uaMSv6EnXVcNQbdhZcZOh0PMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leevi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
