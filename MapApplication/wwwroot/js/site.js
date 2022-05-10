@@ -1,7 +1,7 @@
 ﻿
 
 var map = L.map('map').setView([0, 0], 1);
-        L.TileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=EVuUOQm9Knxh84jI671s', {
+var tilelayer = new L.TileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=EVuUOQm9Knxh84jI671s', {
         tileSize: 512,
         zoomOffset: -1,
         minZoom: 1,

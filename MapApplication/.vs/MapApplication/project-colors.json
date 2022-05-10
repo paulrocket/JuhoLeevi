@@ -5,6 +5,11 @@
       "ProjectGuid": "37427ef8-0dc4-403f-a18e-a1a97b8c8c32",
       "DisplayName": "MapApplication",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
