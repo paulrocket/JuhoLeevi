@@ -33,8 +33,8 @@
     ".NETCoreApp,Version=v5.0": {
       "MapApplication/1.0.0": {
         "dependencies": {
-          "JavaScriptEngineSwitcher.Core": "3.3.0",
           "JavaScriptEngineSwitcher.V8": "3.18.1",
+          "React.AspNet": "5.2.12",
           "React.Core": "5.2.12",
           "React.Web.Mvc4": "5.2.12",
           "leaflet": "0.7.3",
@@ -470,6 +470,35 @@
         },
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "React.AspNet/5.2.12": {
+        "dependencies": {
+          "React.AspNet.Middleware": "5.2.12",
+          "React.Core": "5.2.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/React.AspNet.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.12.29"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/React.AspNet.dll": {}
+        }
+      },
+      "React.AspNet.Middleware/5.2.12": {
+        "dependencies": {
+          "React.Core": "5.2.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/React.AspNet.Middleware.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.12.29"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/React.AspNet.Middleware.dll": {}
         }
       },
       "React.Core/5.2.12": {
@@ -2529,6 +2558,20 @@
       "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "React.AspNet/5.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-98zc2aIyA4gef24O+NbdODnpXTSq9VPYgT53JxFC0U5iptW5tmct2OghbXyJyMZrh7J68V9pxhdo1y7lWmMGsQ==",
+      "path": "react.aspnet/5.2.12",
+      "hashPath": "react.aspnet.5.2.12.nupkg.sha512"
+    },
+    "React.AspNet.Middleware/5.2.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pY6Ux6Xy8/y5kP4apskU7sMf4ZjBoMipSsIwH/k0XYleBjCPGi+MjSMrE2T1CGHr2eKqRG5ahWPmC6VPKzwKJQ==",
+      "path": "react.aspnet.middleware/5.2.12",
+      "hashPath": "react.aspnet.middleware.5.2.12.nupkg.sha512"
     },
     "React.Core/5.2.12": {
       "type": "package",

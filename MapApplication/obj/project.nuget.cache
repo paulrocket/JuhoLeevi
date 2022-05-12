@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c99KdrCi7rWKe1s8snodxBeERxwbpz7cb5DjfEZXx5ZrfuMGBJXsUakL6uDl2lcu9GzT0Q/O2eRn3rFOksA4Mw==",
+  "dgSpecHash": "4q6iobt2GTTRdEbVzV2LN0UN9DPAWgwG8v6D9kORFWttvQqaVtzoYGR4DeAYtnRqdQ0SV5APAKPGWJ5EBv0dww==",
   "success": true,
   "projectFilePath": "C:\\Users\\leevi\\Opiframe\\Ryhmatyo\\JuhoLeevi\\MapApplication\\MapApplication.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\leevi\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\leevi\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\leevi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\leevi\\.nuget\\packages\\react.aspnet\\5.2.12\\react.aspnet.5.2.12.nupkg.sha512",
+    "C:\\Users\\leevi\\.nuget\\packages\\react.aspnet.middleware\\5.2.12\\react.aspnet.middleware.5.2.12.nupkg.sha512",
     "C:\\Users\\leevi\\.nuget\\packages\\react.core\\5.2.12\\react.core.5.2.12.nupkg.sha512",
     "C:\\Users\\leevi\\.nuget\\packages\\react.web.mvc4\\5.2.12\\react.web.mvc4.5.2.12.nupkg.sha512",
     "C:\\Users\\leevi\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",

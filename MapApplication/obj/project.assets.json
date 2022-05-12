@@ -145,6 +145,37 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "React.AspNet/5.2.12": {
+        "type": "package",
+        "dependencies": {
+          "React.AspNet.Middleware": "5.2.12",
+          "React.Core": "5.2.12"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/React.AspNet.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/React.AspNet.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "React.AspNet.Middleware/5.2.12": {
+        "type": "package",
+        "dependencies": {
+          "React.Core": "5.2.12"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/React.AspNet.Middleware.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/React.AspNet.Middleware.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "React.Core/5.2.12": {
         "type": "package",
         "dependencies": {
@@ -836,6 +867,40 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "React.AspNet/5.2.12": {
+      "sha512": "98zc2aIyA4gef24O+NbdODnpXTSq9VPYgT53JxFC0U5iptW5tmct2OghbXyJyMZrh7J68V9pxhdo1y7lWmMGsQ==",
+      "type": "package",
+      "path": "react.aspnet/5.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/React.AspNet.dll",
+        "lib/netcoreapp3.0/React.AspNet.xml",
+        "lib/netstandard2.0/React.AspNet.dll",
+        "lib/netstandard2.0/React.AspNet.xml",
+        "logo_64.png",
+        "react.aspnet.5.2.12.nupkg.sha512",
+        "react.aspnet.nuspec"
+      ]
+    },
+    "React.AspNet.Middleware/5.2.12": {
+      "sha512": "pY6Ux6Xy8/y5kP4apskU7sMf4ZjBoMipSsIwH/k0XYleBjCPGi+MjSMrE2T1CGHr2eKqRG5ahWPmC6VPKzwKJQ==",
+      "type": "package",
+      "path": "react.aspnet.middleware/5.2.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/React.AspNet.Middleware.dll",
+        "lib/netcoreapp3.0/React.AspNet.Middleware.pdb",
+        "lib/netcoreapp3.0/React.AspNet.Middleware.xml",
+        "lib/netstandard2.0/React.AspNet.Middleware.dll",
+        "lib/netstandard2.0/React.AspNet.Middleware.pdb",
+        "lib/netstandard2.0/React.AspNet.Middleware.xml",
+        "logo_64.png",
+        "react.aspnet.middleware.5.2.12.nupkg.sha512",
+        "react.aspnet.middleware.nuspec"
       ]
     },
     "React.Core/5.2.12": {
@@ -2552,8 +2617,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "JavaScriptEngineSwitcher.Core >= 3.3.0",
       "JavaScriptEngineSwitcher.V8 >= 3.18.1",
+      "React.AspNet >= 5.2.12",
       "React.Core >= 5.2.12",
       "React.Web.Mvc4 >= 5.2.12",
       "leaflet >= 0.7.3"
@@ -2598,13 +2663,13 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "JavaScriptEngineSwitcher.Core": {
-            "target": "Package",
-            "version": "[3.3.0, )"
-          },
           "JavaScriptEngineSwitcher.V8": {
             "target": "Package",
             "version": "[3.18.1, )"
+          },
+          "React.AspNet": {
+            "target": "Package",
+            "version": "[5.2.12, )"
           },
           "React.Core": {
             "target": "Package",

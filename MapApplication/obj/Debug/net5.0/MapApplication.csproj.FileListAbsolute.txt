@@ -95,3 +95,6 @@ C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\ru-ru
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\package-lock.json
 C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\package.json
+C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\React.AspNet.dll
+C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\bin\Debug\net5.0\React.AspNet.Middleware.dll
+C:\Users\leevi\Opiframe\Ryhmatyo\JuhoLeevi\MapApplication\obj\Debug\net5.0\MapApplication.MvcApplicationPartsAssemblyInfo.cs
