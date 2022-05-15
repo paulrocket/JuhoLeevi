@@ -3,11 +3,14 @@ import React from "react";
 import { Map, MapContainer, TileLayer, Marker, Popup, } from 'react-leaflet';
 import './App.css';
 import { Icon } from "leaflet";
+import Navbar from './components/Navbar';
 
 
 export default function App() {
   return (
-
+    <div className="App">
+      <Navbar/>
+      <hr/>
       <MapContainer center={[50.5, 30.5]} zoom={2}scrollWheelZoom={true}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -16,8 +19,8 @@ export default function App() {
           tileSize={512}
           minZoom={2}
         />
-
       </MapContainer>
+    </div>
 
 
   );
