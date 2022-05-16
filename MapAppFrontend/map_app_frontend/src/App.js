@@ -11,15 +11,17 @@ export default function App() {
     <div className="App">
       <Navbar/>
       <hr/>
-      <MapContainer center={[50.5, 30.5]} zoom={2}scrollWheelZoom={true}>
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          zoomOffset={1}
-          tileSize={512}
-          minZoom={2}
-        />
-      </MapContainer>
+        <div id="theMap">
+        <MapContainer center={[43.00, -79.00]} zoom={2}scrollWheelZoom={true}>
+          <TileLayer
+            url={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
+            attribution={'<a href="http://osm.org/copyright">OpenStreetMap</a>'}
+            zoomOffset={1}
+            tileSize={256}
+            minZoom={2}
+          />
+        </MapContainer>
+        </div>
     </div>
 
 
