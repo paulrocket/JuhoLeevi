@@ -9,7 +9,7 @@ const Navbar = (props) => {
     let links = <ul className="navbar-nav">
                     <li className="nav-item" style={{"marginLeft":5}}>Home</li>
           					<li className="nav-item" style={{"marginLeft":5}}>
-                      <Link to ="/form">Login</Link>
+                      <Link to ="/LoginPage">Login</Link>
                     </li>
           					<li className="nav-item" style={{"marginLeft":5}}>Logout</li>
                 </ul>

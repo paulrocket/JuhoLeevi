@@ -16,11 +16,28 @@ const LoginPage = (props) => {
           })
       }
 
+      const onSubmit = (event) => {
+        event.preventDefault();
+        if(state.username.length < 4 || state.password.length < 8) {
+            props.setError("Username needs to be at least four characters and password eight characters long");
+            return;
+        }
+        let user = {
+            username:state.username,
+            password:state.password
+        }
+        if(event.target.name === "register") {
+            props.register(user);
+        } else {
+            props.login(user);
+        }
+    }
+
 
   return(
           <div style={{
               "width":500,
-              "backgroundColor":"#14f5bc",
+              "backgroundColor":"#C0D6E4",
               "margin":"auto"
           }}>
               <form className="mb-3">

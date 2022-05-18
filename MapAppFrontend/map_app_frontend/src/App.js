@@ -14,7 +14,7 @@ export default function App() {
       <Navbar/>
         <Routes>
           <Route path="/" element={<Navigate to="/"/>} />
-          <Route path="/LoginPage" element={<LoginPage/>} />
+          <Route exact path="/" element={<LoginPage/>}/>
         </Routes>
       <hr/>
         <div id="theMap">
