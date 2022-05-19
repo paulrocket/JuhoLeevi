@@ -14,7 +14,7 @@ const Navbar = (props) => {
                       <Link to="/LoginPage">Login</Link>
                     </li>
           					<li className="nav-item" style={{"marginLeft":5}}>
-                      <Link to="/LogoutPage">Logout</Link>
+                      <Link to="/">Logout</Link>
                     </li>
                 </ul>
 

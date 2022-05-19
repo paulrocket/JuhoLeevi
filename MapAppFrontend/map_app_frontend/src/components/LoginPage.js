@@ -37,26 +37,27 @@ const LoginPage = (props) => {
   return(
           <div style={{
               "width":500,
+              "padding":50,
               "backgroundColor":"#C0D6E4",
               "margin":"auto"
           }}>
               <form className="mb-3">
-                  <label htmlFor="username" className="form-label">Username</label>
+                  <label htmlFor="username" className="form-label">Username:</label>
                   <input type="text"
                           name="username"
                           id="username"
                           className="form-control"
                           onChange={onChange}
                           value={state.username}/>
-                  <label htmlFor="password" className="form-label">Password</label>
+                  <label htmlFor="password" className="form-label">Password:</label>
                   <input type="password"
                           name="password"
                           id="password"
                           className="form-control"
                           onChange={onChange}
                           value={state.password}/>
-                  <button className="btn btn-primary" name="register" style={{"marginRight":5}}>Register</button>
-                  <button className="btn btn-primary" name="login" style={{"marginLeft":5}}>Login</button>
+                  <button className="btn btn-primary" name="register" style={{"marginRight":10, "marginTop":10}}>Register</button>
+                  <button className="btn btn-primary" name="login" style={{"marginLeft":10, "marginTop":10}}>Login</button>
               </form>
           </div>
       )
