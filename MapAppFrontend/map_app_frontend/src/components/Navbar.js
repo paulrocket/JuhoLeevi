@@ -6,12 +6,16 @@ import {Link} from 'react-router-dom';
 
 const Navbar = (props) => {
 
-    let links = <ul className="navbar-nav">
-                    <li className="nav-item" style={{"marginLeft":5}}>Home</li>
-          					<li className="nav-item" style={{"marginLeft":5}}>
-                      <Link to ="/LoginPage">Login</Link>
+    let links = <ul className="ms-auto navbar-nav" style={{"marginRight":10}}>
+                    <li className="nav-item" style={{"marginLeft":5}}>
+                      <Link to="/">Home</Link>
                     </li>
-          					<li className="nav-item" style={{"marginLeft":5}}>Logout</li>
+          					<li className="nav-item" style={{"marginLeft":5}}>
+                      <Link to="/LoginPage">Login</Link>
+                    </li>
+          					<li className="nav-item" style={{"marginLeft":5}}>
+                      <Link to="/LogoutPage">Logout</Link>
+                    </li>
                 </ul>
 
                 return (

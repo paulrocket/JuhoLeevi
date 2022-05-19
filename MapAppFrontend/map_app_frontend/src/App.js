@@ -1,33 +1,50 @@
 import logo from './logo.svg';
-import React from "react";
-import { Map, MapContainer, TileLayer, Marker, Popup, } from 'react-leaflet';
+import {React,useState} from "react";
 import './App.css';
-import { Icon } from "leaflet";
 import Navbar from './components/Navbar';
 import LoginPage from './components/LoginPage';
 import {Routes,Route,Navigate} from 'react-router-dom';
 
+function App() {
 
-export default function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-        <Routes>
-          <Route path="/" element={<Navigate to="/"/>} />
-          <Route exact path="/" element={<LoginPage/>}/>
-        </Routes>
-      <hr/>
-        <div id="theMap">
-        <MapContainer center={[43.00, -79.00]} zoom={2}scrollWheelZoom={true}>
-          <TileLayer
-            url={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
-            attribution={'<a href="http://osm.org/copyright">OpenStreetMap</a>'}
-            zoomOffset={1}
-            tileSize={256}
-            minZoom={2}
-          />
-        </MapContainer>
-        </div>
-    </div>
-  );
+  const [state,setState] = useState({
+    list:[],
+    isLogged:false,
+    token:"",
+    loading:false,
+    error:""
+  })
+
+  const [urlRequest,setUrlRequest] = useState({
+    url:"",
+    request:{},
+    action:""
+  })
+
+  const login = (user) => {
+    setUrlRequest({
+      url:"/LoginPage",
+      request:{
+        method:"POST",
+        mode:"cors",
+        headers:{"Content-type":"application/json"},
+        body:JSON.stringify(user)
+      },
+      action:"login"
+    })
+  }
+
+
+    return (
+      <div className="App">
+        <Navbar/>
+          <Routes>
+            <Route path="Home" element={<Navigate to="/"/>} />
+            <Route path="LoginPage" element={<LoginPage/>}/>
+          </Routes>
+        <hr/>
+      </div>
+    );
 }
+
+export default App;
