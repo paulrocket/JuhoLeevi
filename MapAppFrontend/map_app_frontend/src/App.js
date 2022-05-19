@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import {React,useState} from "react";
 import './App.css';
 import Navbar from './components/Navbar';
 import LoginPage from './components/LoginPage';
+import DisplayMap from './components/DisplayMap';
 import {Routes,Route,Navigate} from 'react-router-dom';
+
+
 
 function App() {
 
@@ -39,7 +41,7 @@ function App() {
       <div className="App">
         <Navbar/>
           <Routes>
-            <Route path="Home" element={<Navigate to="/"/>} />
+            <Route exact path="/" element={<DisplayMap/>} />
             <Route path="LoginPage" element={<LoginPage/>}/>
           </Routes>
         <hr/>
