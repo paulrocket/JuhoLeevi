@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE [dbo].[spUser_GetAll]
+AS
+begin
+	SELECT UserId, UserName, UserPassword
+	FROM dbo.[User]
+end
