@@ -28,6 +28,16 @@ namespace Mapplication.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Index(PersonModel person)
+        {
+            int personId = person.PersonId;
+            string name = person.Name;
+            string password = person.Password;
+
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

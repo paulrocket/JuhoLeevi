@@ -73,12 +73,14 @@ body {
 #map {
     height: 500px;
 }
-#loginDiv {
-    width:500px;
-    padding:50px;
-    margin:auto;
-}
+
 
 .nav-item {
     float:right;
+}
+
+#formTable {
+    width: 500px;
+    padding: 50px;
+    margin: auto;
 }

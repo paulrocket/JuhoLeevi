@@ -1,25 +1,36 @@
-﻿@{
-    ViewData["Title"] = "Login";
-}
-<h1>@ViewData["Title"]</h1>
-
-<div id="loginDiv">
-              <form className="mb-3">
-                  <label htmlFor="username" className="form-label">Username:</label>
-                  <input type="text"
-                          name="username"
-                          id="username"
-                          className="form-control"
-                          onChange={onChange}
-                          value={state.username}/>
-                  <label htmlFor="password" className="form-label">Password:</label>
-                  <input type="password"
-                          name="password"
-                          id="password"
-                          className="form-control"
-                          onChange={onChange}
-                          value={state.password}/>
-                  <button className="btn btn-primary" name="register" style={{"marginRight":10, "marginTop":10}}>Register</button>
-                  <button className="btn btn-primary" name="login" style={{"marginLeft":10, "marginTop":10}}>Login</button>
-              </form>
-          </div>
+﻿@model Mapplication.Models.PersonModel
+ 
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <table id='formTable' cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Login</th>
+            </tr>
+            <tr>
+                <td>Name: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Name)
+                </td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Password)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+    }
+</body>
+</html>
