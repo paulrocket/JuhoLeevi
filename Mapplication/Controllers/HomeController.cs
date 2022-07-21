@@ -32,7 +32,7 @@ namespace Mapplication.Controllers
         public ActionResult Index(PersonModel person)
         {
             int personId = person.PersonId;
-            string name = person.Name;
+            string name = person.Username;
             string password = person.Password;
 
             return View();
